@@ -15,6 +15,7 @@ export interface ITitleHoverWebPartProps {
   title_font_size: string;
   hover_text: string,
   hover_text_font_size: string;
+  popup_align: string;
 }
 
 export default class TitleHoverWebPart extends BaseClientSideWebPart<ITitleHoverWebPartProps> {
@@ -112,6 +113,10 @@ export default class TitleHoverWebPart extends BaseClientSideWebPart<ITitleHover
                 }),
                 PropertyPaneTextField('hover_text_font_size', {
                   label: 'hover text fonty size'
+                })
+                ,
+                PropertyPaneTextField('popup_align', {
+                  label: 'popup align'
                 })
               ]
             }
