@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "title-hover-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/titleHover/TitleHoverWebPart.js",
+          "manifest": "./src/webparts/titleHover/TitleHoverWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TitleHoverWebPartStrings": "lib/webparts/titleHover/loc/{locale}.js"
+  }
+}
