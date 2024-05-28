@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "title-hover-react",
+    "libraryId": "c6ede6f2-7424-45ea-b149-badf95a6e2d9",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "title-hover-react",
+    "solutionShortDescription": "title-hover-react description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

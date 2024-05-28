@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "title-hover-react-client-side-solution",
+    "id": "c6ede6f2-7424-45ea-b149-badf95a6e2d9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "title-hover-react description"
+      },
+      "longDescription": {
+        "default": "title-hover-react description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "title-hover-react Feature",
+        "description": "The feature that activates elements of the title-hover-react solution.",
+        "id": "6a5425ae-4a02-42d6-ba1d-952676160117",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/title-hover-react.sppkg"
+  }
+}
