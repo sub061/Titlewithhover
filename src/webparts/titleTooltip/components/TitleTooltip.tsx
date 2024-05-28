@@ -2,6 +2,8 @@ import * as React from "react";
 import styles from "./TitleTooltip.module.scss";
 import type { ITitleTooltipProps } from "./ITitleTooltipProps";
 import { escape } from "@microsoft/sp-lodash-subset";
+import "react-tooltip/dist/react-tooltip.css";
+import { Tooltip } from "react-tooltip";
 
 export default class TitleTooltip extends React.Component<
   ITitleTooltipProps,
@@ -27,10 +29,13 @@ export default class TitleTooltip extends React.Component<
           hasTeamsContext ? styles.teams : ""
         }`}
       >
-        <div className="">
+        <a
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content={escape(tooltip_text)}
+        >
           <strong> {escape(title)}</strong>
-          <span>{escape(tooltip_text)} </span>
-        </div>
+        </a>
+        <Tooltip id="my-tooltip" />
       </section>
     );
   }
